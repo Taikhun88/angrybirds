@@ -1,3 +1,3 @@
-index: #name of the route
+home: #name of the route
     path: / #URL to be indicated in the method's annotation
     controller: App\Controller\HomeController::home #Name of Controller being called
