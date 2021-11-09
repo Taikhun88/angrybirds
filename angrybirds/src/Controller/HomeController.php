@@ -1,11 +1,12 @@
 <?php 
-namespace App;
+
+namespace App\Controller;
 
 class HomeController{
  /**
   * This method displays the homepage, list of all birds
-  * @return void
   *
+  * @return void
   */
   public function home()
   {
