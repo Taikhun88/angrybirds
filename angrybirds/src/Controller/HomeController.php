@@ -7,7 +7,6 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-
 class HomeController extends AbstractController{
   /**
    * Displays the homepage with list of all birds
@@ -24,6 +23,7 @@ class HomeController extends AbstractController{
       // initially without injection of Response, symfony can only return object. 
       $birdsModel = new Birds();
       $birds = $birdsModel->getBirds();
+      // dd($birds);
       return $this->render('home/home.html.twig', [
         'title' => "Hello Angry Birds",
         'birds' => $birds
