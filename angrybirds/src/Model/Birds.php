@@ -52,14 +52,23 @@ class Birds {
     }
 
     /**
-     * This method gets data of one bird
+     * This method gets data of one bird based on the ID we click
      * 
-     * @return array
-     * 
+     * @param int $id
+     * @return void
      */
     public function getBirdById($id){
-        $this->birds[0]; //
-        $this->birds[1]; //
+        // $this->birds[0];
+        // $this->birds[1];
+
+        // we check the existence of the bird id
+        if(isset($this->birds[$id])){
+            //yes then we return the details
+            return $this->birds[$id];
+        }else{
+            return false;
+        }
+
         return $this->birds[$id];
     }
 }

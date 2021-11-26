@@ -11,15 +11,20 @@ class BirdController extends AbstractController {
   /**
    * Display the details of a bird by clicking on its ID
    * 
-   * @Route("/bird/{id}", name="bird_show")
+   * @Route("/bird/{id}", name="bird_show", requirements={"id" : "\d+"})
    * 
    * @return Response
    */
-  public function show(int $id){
+  public function show($id){
 
     $birdModel = new Birds();
     $birdData = $birdModel->getBirdById($id);
     //dd($birdData);
+
+    // In case bird id does not exist we display a customized message to the user
+    if($birdData === false){
+      throw $this->createNotFoundException("L'oiseau $id n'existe pas");
+    }
 
     return $this->render('home/show.html.twig', [
       'bird' => $birdData
