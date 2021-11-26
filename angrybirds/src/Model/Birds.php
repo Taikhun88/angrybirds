@@ -43,11 +43,23 @@ class Birds {
     ];
 
     /**
-     * This method display all the birds listed in the array above
+     * This method gets all the birds listed in the array above
      * 
      * @return array
      */
     public function getBirds(): array{   
         return $this->birds;
+    }
+
+    /**
+     * This method gets data of one bird
+     * 
+     * @return array
+     * 
+     */
+    public function getBirdById($id){
+        $this->birds[0]; //
+        $this->birds[1]; //
+        return $this->birds[$id];
     }
 }

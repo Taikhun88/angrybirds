@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h2>{{ bird.name }}</h2>
+    <p>{{ bird.description }}</p>
+    <img src="{{ asset('/css/images/' ~ bird.image) }}">
+{% endblock %}

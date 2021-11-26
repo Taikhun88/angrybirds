@@ -12,7 +12,7 @@ class HomeController extends AbstractController{
    * Displays the homepage with list of all birds
    * This methods displays the route thanks to annotations.yaml and uses injection of Route above
    * 
-   * @Route("/")
+   * @Route("/", name="home")
    * 
    * return Response
    */
