@@ -1,8 +1,11 @@
-<?php 
- 
+<?php
+
 namespace App\Model;
 
-class Birds {
+use Symfony\Component\HttpFoundation\File\File;
+
+class Birds
+{
 
     private $birds = [
         [
@@ -47,7 +50,55 @@ class Birds {
      * 
      * @return array
      */
-    public function getBirds(): array{   
+    public function getBirds(): array
+    {
         return $this->birds;
+    }
+
+    /**
+     * This method gets data of one bird based on the ID we click
+     * 
+     * @param int $id
+     * @return void
+     */
+    public function getBirdById($id)
+    {
+        // $this->birds[0];
+        // $this->birds[1];
+
+        // we check the existence of the bird id
+        if (isset($this->birds[$id])) {
+            //yes then we return the details
+            return $this->birds[$id];
+        } else {
+            return false;
+        }
+
+        return $this->birds[$id];
+    }
+
+
+    // This variable store the PDF file
+    /**
+     * @Assert\File(
+     *     maxSize = "2048k",
+     *     mimeTypes = {"application/pdf", "application/x-pdf"},
+     *     mimeTypesMessage = "Merci de joindre un fichier au format PDF"
+     * )
+     */
+    protected $birdsPDF;
+
+    public function setPdfDownload(File $file = null)
+    {
+        //We use the injuction FILE so we can call the getter method to get the file
+        $this->birdsPDF = $file;
+    }
+
+    /**
+     * Use the getter to get the FILE 
+     */
+    public function getPdfDownload()
+    {
+        return $this->birdsPDF;
     }
 }
