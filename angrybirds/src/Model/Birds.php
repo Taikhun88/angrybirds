@@ -46,7 +46,7 @@ class Birds
     ];
 
     /**
-     * This method display all the birds listed in the array above
+     * This method gets all the birds listed in the array above
      * 
      * @return array
      */
@@ -61,44 +61,18 @@ class Birds
      * @param int $id
      * @return void
      */
-    public function getBirdById($id)
-    {
+    public function getBirdById($id){
         // $this->birds[0];
         // $this->birds[1];
 
         // we check the existence of the bird id
-        if (isset($this->birds[$id])) {
+        if(isset($this->birds[$id])){
             //yes then we return the details
             return $this->birds[$id];
-        } else {
+        }else{
             return false;
         }
 
         return $this->birds[$id];
-    }
-
-
-    // This variable store the PDF file
-    /**
-     * @Assert\File(
-     *     maxSize = "2048k",
-     *     mimeTypes = {"application/pdf", "application/x-pdf"},
-     *     mimeTypesMessage = "Merci de joindre un fichier au format PDF"
-     * )
-     */
-    protected $birdsPDF;
-
-    public function setPdfDownload(File $file = null)
-    {
-        //We use the injuction FILE so we can call the getter method to get the file
-        $this->birdsPDF = $file;
-    }
-
-    /**
-     * Use the getter to get the FILE 
-     */
-    public function getPdfDownload()
-    {
-        return $this->birdsPDF;
     }
 }
