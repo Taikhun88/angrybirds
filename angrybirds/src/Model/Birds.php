@@ -2,8 +2,6 @@
 
 namespace App\Model;
 
-use Symfony\Component\HttpFoundation\File\File;
-
 class Birds
 {
 
