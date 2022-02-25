@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace App\Controller;
 
@@ -7,26 +7,27 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class HomeController extends AbstractController{
+class HomeController extends AbstractController
+{
   /**
    * Displays the homepage with list of all birds
    * This methods displays the route thanks to annotations.yaml and uses injection of Route above
    * 
-   * @Route("/")
+   * @Route("/", name="home")
    * 
    * return Response
    */
   public function home(): Response
   {
-      //dd('Hello World!');
-      // this method has its route name and url defined in file routes.yaml
-      // initially without injection of Response, symfony can only return object. 
-      $birdsModel = new Birds();
-      $birds = $birdsModel->getBirds();
-      // dd($birds);
-      return $this->render('home/home.html.twig', [
-        'title' => "Hello Angry Birds",
-        'birds' => $birds
-      ]);
+    //dd('Hello World!');
+    // this method has its route name and url defined in file routes.yaml
+    // initially without injection of Response, symfony can only return object. 
+    $birdsModel = new Birds();
+    $birds = $birdsModel->getBirds();
+    // dd($birds);
+    return $this->render('home/home.html.twig', [
+      'title' => "Hello Angry Birds",
+      'birds' => $birds
+    ]);
   }
 }

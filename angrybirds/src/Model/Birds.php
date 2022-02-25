@@ -1,8 +1,9 @@
-<?php 
- 
+<?php
+
 namespace App\Model;
 
-class Birds {
+class Birds
+{
 
     private $birds = [
         [
@@ -43,11 +44,33 @@ class Birds {
     ];
 
     /**
-     * This method display all the birds listed in the array above
+     * This method gets all the birds listed in the array above
      * 
      * @return array
      */
-    public function getBirds(): array{   
+    public function getBirds(): array
+    {
         return $this->birds;
+    }
+
+    /**
+     * This method gets data of one bird based on the ID we click
+     * 
+     * @param int $id
+     * @return void
+     */
+    public function getBirdById($id){
+        // $this->birds[0];
+        // $this->birds[1];
+
+        // we check the existence of the bird id
+        if(isset($this->birds[$id])){
+            //yes then we return the details
+            return $this->birds[$id];
+        }else{
+            return false;
+        }
+
+        return $this->birds[$id];
     }
 }
