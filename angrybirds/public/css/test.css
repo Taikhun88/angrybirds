@@ -1,0 +1,15 @@
+.ul_css {
+    width: 50%;
+}
+
+.odd {
+    background-color: aquamarine;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.even {    
+    background-color: white;
+    list-style-type: none;
+    text-transform: uppercase;
+}
