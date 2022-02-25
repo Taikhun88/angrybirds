@@ -22,6 +22,9 @@
         "twig/twig": "^2.12|^3.0"
     },
     "config": {
+        "platform": {
+            "php": "8.0.0"
+        },
         "optimize-autoloader": true,
         "preferred-install": {
             "*": "dist"
