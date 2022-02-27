@@ -39,3 +39,15 @@ body {
     border: 1px solid gray;
     width: 100%;
 }
+
+.odd {
+    background-color: aquamarine;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.even {    
+    background-color: white;
+    list-style-type: none;
+    text-transform: uppercase;
+}
