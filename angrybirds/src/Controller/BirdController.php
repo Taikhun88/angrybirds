@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Model\Birds;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 class BirdController extends AbstractController {
@@ -15,11 +16,16 @@ class BirdController extends AbstractController {
    * 
    * @return Response
    */
-  public function show($id){
+  public function show($id, SessionInterface $sessionInterface){
 
     $birdModel = new Birds();
     $birdData = $birdModel->getBirdById($id);
     //dd($birdData);
+
+    // We save the ID thanks to a SESSION method so we can indicate to user which bird page has been visited previously when back on bird list
+    $birdName = $birdData['name'];
+    $sessionInterface->set('lastBirdVisited', $birdName);
+    // dd($sessionInterface);    
 
     // In case bird id does not exist we display a customized message to the user
     if($birdData === false){
@@ -27,7 +33,7 @@ class BirdController extends AbstractController {
     }
 
     return $this->render('home/show.html.twig', [
-      'bird' => $birdData
+      'bird' => $birdData,
     ]);
   }
 
