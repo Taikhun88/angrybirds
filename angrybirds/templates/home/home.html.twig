@@ -20,9 +20,10 @@
 			{% set colorsOddEven = ['odd', 'even'] %}
 			{% for i in 0..0 %}
 				{% for key, bird in birds %}
-					<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+					<div class="col-6 col-sm-6 col-md-4 col-lg-3 {{ cycle(['odd','even'], key )}}">
 
-						<div class="card mb-3 bird-card {{ loop.index0 is odd ? 'odd' : 'even' }}">
+						<div class="card mb-3 bird-card">
+                                    {# {{ loop.index0 is odd ? 'odd' : 'even' }} #}
 
 						<a href="{{ path('bird_show', {id:key}) }}">
 							<h3 class="card-header bird-card__title">
