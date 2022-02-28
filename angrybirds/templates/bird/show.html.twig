@@ -14,7 +14,7 @@
 					<p class="lead">{{ bird.description }}</p>
 					<hr class="my-4">
 					<p class="lead">
-						<a class="btn btn-primary btn-lg" href="{{ path('home') }}" role="button">Add to cart</a>
+						<a class="btn btn-primary btn-lg" href="{{ path('cart_add', {id:birdId}) }}" role="button">Add to cart</a>
 					</p>
 				</div>
 			</div>

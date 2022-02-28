@@ -34,8 +34,9 @@ class BirdController extends AbstractController {
       throw $this->createNotFoundException("L'oiseau $id n'existe pas");
     }
 
-    return $this->render('home/show.html.twig', [
+    return $this->render('bird/show.html.twig', [
       'bird' => $birdData,
+      'birdId' => $id
     ]);
   }
 

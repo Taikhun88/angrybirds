@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<main>
+		<h1>Test cart controller</h1>
+		<p>{{ test }}</p>
+		<a href="{{ path('cart_add', {'id': bird.name}) }}">Ajouter</a>
+
+		{# <table class="row">
+			<div>
+				<tr>
+					<th class="col-4">Image</th>
+					<th class="col-4">Name</th>
+					<th class="col-4">Quantity</th>
+				</tr>
+			</div>
+
+			{% for key, birdDetails in birdsDetails %}
+				<tr>
+					<td><img></td>
+					<td></td>
+					<td></td>
+				</tr>
+			{% endfor %}
+
+		</table> #}
+	</main>
+
+{% endblock %}

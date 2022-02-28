@@ -2,9 +2,11 @@
 
 namespace App\Controller;
 
+use App\Model\Birds;
 use App\Model\TestOddEven;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 class TestCycleController extends AbstractController
@@ -21,12 +23,11 @@ class TestCycleController extends AbstractController
         $test = "Test";
         $oddEvenValueClass = new TestOddEven();
         $oddEvenValues = $oddEvenValueClass->getOddEvenValues();
-
         // dd($test);
 
         return $this->render('home/test.html.twig', [
             "cycleTest" => $test,
-            "valuesTest" => $oddEvenValues
+            "valuesTest" => $oddEvenValues,
         ]);
-    }
+    }    
 }
