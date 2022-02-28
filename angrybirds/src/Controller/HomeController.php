@@ -28,12 +28,14 @@ class HomeController extends AbstractController
     // dd($birds);
 
     $lastBirdVisited = $session->get('lastBirdVisited');
+    $imageLastBirdVisited= $session->get('imageLastBirdVisited');
     // var_dump($lastBirdVisited);
 
     return $this->render('home/home.html.twig', [
       'title' => "Hello Angry Birds",
       'birds' => $birds,
-      'lastBirdVisited' => $lastBirdVisited
+      'lastBirdVisited' => $lastBirdVisited,
+      'imageLastBirdVisited' => $imageLastBirdVisited
     ]);
   }
 }

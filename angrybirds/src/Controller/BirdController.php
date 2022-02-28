@@ -24,7 +24,9 @@ class BirdController extends AbstractController {
 
     // We save the ID thanks to a SESSION method so we can indicate to user which bird page has been visited previously when back on bird list
     $birdName = $birdData['name'];
+    $birdImage = $birdData['image']; 
     $sessionInterface->set('lastBirdVisited', $birdName);
+    $sessionInterface->set('imageLastBirdVisited',$birdImage);
     // dd($sessionInterface);    
 
     // In case bird id does not exist we display a customized message to the user
