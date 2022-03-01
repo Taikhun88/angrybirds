@@ -22,13 +22,32 @@ class CartController extends AbstractController
     {
         // This will get the data of the filled cart thanks to the add method below
         $cart = $session->get('cart', []);
-        dd('hello angry', $cart);
+        // dd('hello angry', $cart);
+        // We initiate an empty array that will be filled with new data, ID only from the data of model birds.php
+        $birds = [];
+        
+        // we Instantiate the class Birds so we can use its methods and use the data
+        $birdModel = new Birds();
+        // as Its an associative array, we loop it with for each to get data of ID and qty
+        foreach ($cart as $id => $quantity) {
+            // $quantity will be the new data created for containing the data.
+            // dump($id . ' - ' . $quantity);
+            $birdData = $birdModel->getBirdById($id);
+            // Now that we get the quantity we store them 
+            $birdData['quantity'] = $quantity;
+            // Finally we update the array of birdData by adding the quantity
+            $birds[$id] = $birdData;
+        }
+
+        return $this->render('cart/index.html.twig', [
+            'birds' => $birds
+        ]);
     }
 
     /**
      * Enables to add a new bird to the cart
-     * 
-     * @Route("/add/{id}", name="add")
+     * I add methods within route even though I do not use FORM as its better to get a more precise route when called. This acts like a restriction to other ways
+     * @Route("/add/{id}", name="add", methods={"GET"})
      * @return void
      */
     public function add($id, SessionInterface $session)
