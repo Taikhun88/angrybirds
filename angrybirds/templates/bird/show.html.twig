@@ -14,6 +14,7 @@
 					<p class="lead">{{ bird.description }}</p>
 					<hr class="my-4">
 					<p class="lead">
+						{# We want the id to be dynamic so we use the $id which is defined within the BirdController show method #}
 						<a class="btn btn-primary btn-lg" href="{{ path('cart_add', {id:birdId}) }}" role="button">Add to cart</a>
 					</p>
 				</div>

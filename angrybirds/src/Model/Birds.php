@@ -4,6 +4,7 @@ namespace App\Model;
 
 class Birds
 {
+// We load the data in this multidimensional array thanks to the few methods created  in this class
 
     private $birds = [
         [
@@ -54,7 +55,7 @@ class Birds
     }
 
     /**
-     * This method gets data of one bird based on the ID we click
+     * This method gets data of one bird based on the ID we click, the param int indicates the mandatory condition of an $id parameter in the method
      * 
      * @param int $id
      * @return void
@@ -68,6 +69,7 @@ class Birds
             //yes then we return the details
             return $this->birds[$id];
         }else{
+            // if the id does not exist in the array of data we return fasle
             return false;
         }
 
