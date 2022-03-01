@@ -10,13 +10,19 @@
 			rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.6.0/dist/lumen/bootstrap.min.css">
 			<!-- Custom CSS -->
 			<link rel="stylesheet" href="/css/site.css">
-            <link rel="stylesheet" href="/css/test.css">
+			<link rel="stylesheet" href="/css/test.css">
 
 		{% endblock %}
 	</head>
 	<body>
+		{# navbar #}
 		{% include '/partials/_nav.html.twig' %}
+
+		{# messages flash #}
+		{% include '/partials/_flash.html.twig' %}
+
 		{% block body %}{% endblock %}
+
 
 		{% block javascripts %}
 			<!-- Bootstrap JS -->

@@ -71,6 +71,11 @@ class CartController extends AbstractController
         // Now we need to save the new data in the cart with session
         $session->set('cart', $cart);
         // dd('hey ads' . $id, $cart);
+
+        // addFlash displays a message that can be displayed on front by using variable twig app.flashes
+        //This method needs as 1st parameter a variable name then the message
+
+        $this->addFlash('success', "L'oiseau numéro $id a bien été ajouté à votre panier!");
         
         // For user experience we redirect to another page after the add of 1 Birds
         // We use redirectToRoute from the AbstractController
