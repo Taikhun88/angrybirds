@@ -16,11 +16,11 @@
       <main class="container main-content">
             <div class="row">
                   <!-- Bird Card -->
-                  {% for bird in birds %}
+                  {% for key, bird in birds %}
                   <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                         <div class="card mb-3 bird-card">
                               
-                              <a href="bird.html">
+                              <a href="{{ path('bird_show', {id:key}) }}">
                                     <h3 class="card-header bird-card__title">    
                                     {{ bird.name }}
                                     </h3>
