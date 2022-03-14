@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<main class="container main-content">
+		<table class="table table-hover">
+			<thead>
+				<tr class="table-dark">
+					<th scope="col">Image</th>
+					<th scope="col">Name</th>
+					<th scope="col">Price</th>
+					<th scope="col">Quantity</th>
+					<th scope="col">Total</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for bird in birds %}
+				{% set total = bird.price*bird.quantity %}
+					<tr class="table-light">
+						<td>
+							<img src="{{ asset('/css/images/' ~ bird.image) }}" width="100"/>
+						</td>
+						<td>{{ bird.name }}</td>
+						<td>{{ bird.price }}</td>
+						<td>
+							<a href="#" class="btn btn-warning btn-sm mr-2">-</a>
+							{{ bird.quantity }}
+							<a href="#" class="btn btn-success btn-sm ml-2">+</a>
+						</td>
+						<td>{{ total }}</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</main>>
+
+{% endblock %}

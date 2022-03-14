@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<ul class="ul_css">
+		{% set colorsOddEven = ['odd', 'even'] %}
+		{% for i in 0..0 %}
+			{% for valueTest in valuesTest %}
+				<li class="{{ loop.index0 is odd ? 'odd' : 'even' }}">{{ valueTest.articleA }}</li>
+			{% endfor  %}
+		{% endfor  %}
+	</ul>
+{% endblock %}

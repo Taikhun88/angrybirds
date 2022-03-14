@@ -1,0 +1,12 @@
+{% for label, messages in app.flashes() %}
+    {# app.flashes calls the methods we have built in our CartController. 
+    The first parameter is the LABEL and the 2nd parameter is the message itself
+    We use the for to loop in this array to display the message by calling the specific label #}
+    {% for message in messages %}
+        {# we use the alert color from Bootstrap and stick the name of the label to apply the color to it #}
+        <div class="alert alert-{{ label }}">
+        {# This is the 2nd paramater of the addFlash methods #}
+            {{ message }}
+        </div>
+    {% endfor %}
+{% endfor %}

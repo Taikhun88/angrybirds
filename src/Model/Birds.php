@@ -1,8 +1,9 @@
-<?php 
- 
+<?php
+
 namespace App\Model;
 
-class Birds {
+class Birds
+{
 
     private $birds = [
         [
@@ -47,12 +48,13 @@ class Birds {
      * 
      * @return array
      */
-    public function getBirds(): array{   
+    public function getBirds(): array
+    {
         return $this->birds;
     }
 
     /**
-     * This method gets data of one bird based on the ID we click
+     * This method gets data of one bird based on the ID we click, the param int indicates the mandatory condition of an $id 
      * 
      * @param int $id
      * @return void

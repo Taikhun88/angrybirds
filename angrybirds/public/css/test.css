@@ -1,0 +1,15 @@
+.ul_css {
+    width: 50%;
+}
+
+.odd {
+    background-color: #e9d8a6a6;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.even {    
+    background-color: rgba(255, 255, 255, 0.6);
+    list-style-type: none;
+    text-transform: uppercase;
+}
