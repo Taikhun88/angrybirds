@@ -505,29 +505,16 @@
         },
         {
             "name": "symfony/cache",
-<<<<<<< HEAD:composer.lock
-            "version": "v5.4.6",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "c0718d0e01ac14251a45cc9c8b93716ec41ae64b"
+                "reference": "ba06841ed293fcaf79a592f59fdaba471f7c756c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/c0718d0e01ac14251a45cc9c8b93716ec41ae64b",
-                "reference": "c0718d0e01ac14251a45cc9c8b93716ec41ae64b",
-=======
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/cache.git",
-                "reference": "ea6de0cb6fef5e3d5c145bbd665ba35b43b4d11b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/ea6de0cb6fef5e3d5c145bbd665ba35b43b4d11b",
-                "reference": "ea6de0cb6fef5e3d5c145bbd665ba35b43b4d11b",
->>>>>>> feature/kart:angrybirds/composer.lock
+                "url": "https://api.github.com/repos/symfony/cache/zipball/ba06841ed293fcaf79a592f59fdaba471f7c756c",
+                "reference": "ba06841ed293fcaf79a592f59fdaba471f7c756c",
                 "shasum": ""
             },
             "require": {
@@ -558,21 +545,12 @@
                 "doctrine/dbal": "^2.13.1|^3.0",
                 "predis/predis": "^1.1",
                 "psr/simple-cache": "^1.0|^2.0",
-<<<<<<< HEAD:composer.lock
                 "symfony/config": "^4.4|^5.0|^6.0",
                 "symfony/dependency-injection": "^4.4|^5.0|^6.0",
                 "symfony/filesystem": "^4.4|^5.0|^6.0",
                 "symfony/http-kernel": "^4.4|^5.0|^6.0",
                 "symfony/messenger": "^4.4|^5.0|^6.0",
                 "symfony/var-dumper": "^4.4|^5.0|^6.0"
-=======
-                "symfony/config": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/filesystem": "^4.4|^5.0",
-                "symfony/http-kernel": "^4.4|^5.0",
-                "symfony/messenger": "^4.4|^5.0",
-                "symfony/var-dumper": "^4.4|^5.0"
->>>>>>> feature/kart:angrybirds/composer.lock
             },
             "type": "library",
             "autoload": {
@@ -604,11 +582,7 @@
                 "psr6"
             ],
             "support": {
-<<<<<<< HEAD:composer.lock
-                "source": "https://github.com/symfony/cache/tree/v5.4.6"
-=======
-                "source": "https://github.com/symfony/cache/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
+                "source": "https://github.com/symfony/cache/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -624,24 +598,20 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
-            "time": "2022-03-02T12:56:28+00:00"
-=======
-            "time": "2022-01-26T16:05:39+00:00"
->>>>>>> feature/kart:angrybirds/composer.lock
+            "time": "2022-03-22T15:31:03+00:00"
         },
         {
             "name": "symfony/cache-contracts",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache-contracts.git",
-                "reference": "ac2e168102a2e06a2624f0379bde94cd5854ced2"
+                "reference": "64be4a7acb83b6f2bf6de9a02cee6dad41277ebc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache-contracts/zipball/ac2e168102a2e06a2624f0379bde94cd5854ced2",
-                "reference": "ac2e168102a2e06a2624f0379bde94cd5854ced2",
+                "url": "https://api.github.com/repos/symfony/cache-contracts/zipball/64be4a7acb83b6f2bf6de9a02cee6dad41277ebc",
+                "reference": "64be4a7acb83b6f2bf6de9a02cee6dad41277ebc",
                 "shasum": ""
             },
             "require": {
@@ -691,7 +661,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/cache-contracts/tree/v2.5.0"
+                "source": "https://github.com/symfony/cache-contracts/tree/v2.5.1"
             },
             "funding": [
                 {
@@ -707,33 +677,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-17T14:20:01+00:00"
+            "time": "2022-01-02T09:53:40+00:00"
         },
         {
             "name": "symfony/config",
-<<<<<<< HEAD:composer.lock
-            "version": "v5.4.3",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "d65e1bd990c740e31feb07d2b0927b8d4df9956f"
+                "reference": "05624c386afa1b4ccc1357463d830fade8d9d404"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/d65e1bd990c740e31feb07d2b0927b8d4df9956f",
-                "reference": "d65e1bd990c740e31feb07d2b0927b8d4df9956f",
-=======
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/config.git",
-                "reference": "04695656c462fcadad350d5d82f5be81440fb4b2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/04695656c462fcadad350d5d82f5be81440fb4b2",
-                "reference": "04695656c462fcadad350d5d82f5be81440fb4b2",
->>>>>>> feature/kart:angrybirds/composer.lock
+                "url": "https://api.github.com/repos/symfony/config/zipball/05624c386afa1b4ccc1357463d830fade8d9d404",
+                "reference": "05624c386afa1b4ccc1357463d830fade8d9d404",
                 "shasum": ""
             },
             "require": {
@@ -783,11 +740,7 @@
             "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD:composer.lock
-                "source": "https://github.com/symfony/config/tree/v5.4.3"
-=======
-                "source": "https://github.com/symfony/config/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
+                "source": "https://github.com/symfony/config/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -803,11 +756,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
-            "time": "2022-01-03T09:50:52+00:00"
-=======
-            "time": "2022-01-03T09:49:07+00:00"
->>>>>>> feature/kart:angrybirds/composer.lock
+            "time": "2022-03-21T13:42:03+00:00"
         },
         {
             "name": "symfony/console",
@@ -909,29 +858,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-<<<<<<< HEAD:composer.lock
-            "version": "v5.4.6",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "0828fa3e6e436243dbb3dc85abe6b698b3876b89"
+                "reference": "35588b2afb08ea3a142d62fefdcad4cb09be06ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/0828fa3e6e436243dbb3dc85abe6b698b3876b89",
-                "reference": "0828fa3e6e436243dbb3dc85abe6b698b3876b89",
-=======
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "b9de28b341247a92fa576315022b850c315ef82a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/b9de28b341247a92fa576315022b850c315ef82a",
-                "reference": "b9de28b341247a92fa576315022b850c315ef82a",
->>>>>>> feature/kart:angrybirds/composer.lock
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/35588b2afb08ea3a142d62fefdcad4cb09be06ed",
+                "reference": "35588b2afb08ea3a142d62fefdcad4cb09be06ed",
                 "shasum": ""
             },
             "require": {
@@ -991,11 +927,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD:composer.lock
-                "source": "https://github.com/symfony/dependency-injection/tree/v5.4.6"
-=======
-                "source": "https://github.com/symfony/dependency-injection/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
+                "source": "https://github.com/symfony/dependency-injection/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -1011,24 +943,20 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
-            "time": "2022-03-02T12:42:23+00:00"
-=======
-            "time": "2022-01-24T19:55:49+00:00"
->>>>>>> feature/kart:angrybirds/composer.lock
+            "time": "2022-03-08T15:43:06+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8"
+                "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/6f981ee24cf69ee7ce9736146d1c57c2780598a8",
-                "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
+                "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
                 "shasum": ""
             },
             "require": {
@@ -1066,7 +994,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.1"
             },
             "funding": [
                 {
@@ -1082,7 +1010,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-12T14:48:14+00:00"
+            "time": "2022-01-02T09:53:40+00:00"
         },
         {
             "name": "symfony/dotenv",
@@ -1156,29 +1084,16 @@
         },
         {
             "name": "symfony/error-handler",
-<<<<<<< HEAD:composer.lock
-            "version": "v5.4.3",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/error-handler.git",
-                "reference": "c4ffc2cd919950d13c8c9ce32a70c70214c3ffc5"
+                "reference": "060bc01856a1846e3e4385261bc9ed11a1dd7b6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/error-handler/zipball/c4ffc2cd919950d13c8c9ce32a70c70214c3ffc5",
-                "reference": "c4ffc2cd919950d13c8c9ce32a70c70214c3ffc5",
-=======
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/error-handler.git",
-                "reference": "8f93f4532c28cfe0488a9517bcd7f6169306ebb2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/error-handler/zipball/8f93f4532c28cfe0488a9517bcd7f6169306ebb2",
-                "reference": "8f93f4532c28cfe0488a9517bcd7f6169306ebb2",
->>>>>>> feature/kart:angrybirds/composer.lock
+                "url": "https://api.github.com/repos/symfony/error-handler/zipball/060bc01856a1846e3e4385261bc9ed11a1dd7b6a",
+                "reference": "060bc01856a1846e3e4385261bc9ed11a1dd7b6a",
                 "shasum": ""
             },
             "require": {
@@ -1220,11 +1135,7 @@
             "description": "Provides tools to manage errors and ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD:composer.lock
-                "source": "https://github.com/symfony/error-handler/tree/v5.4.3"
-=======
-                "source": "https://github.com/symfony/error-handler/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
+                "source": "https://github.com/symfony/error-handler/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -1240,8 +1151,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
-            "time": "2022-01-02T09:53:40+00:00"
+            "time": "2022-03-18T16:21:29+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1255,22 +1165,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/dec8a9f58d20df252b9cd89f1c6c1530f747685d",
                 "reference": "dec8a9f58d20df252b9cd89f1c6c1530f747685d",
-=======
-            "time": "2022-01-02T09:51:59+00:00"
-        },
-        {
-            "name": "symfony/event-dispatcher",
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "6dc2d5b31cdf84fa6344f44056c32f939fcb8c4a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/6dc2d5b31cdf84fa6344f44056c32f939fcb8c4a",
-                "reference": "6dc2d5b31cdf84fa6344f44056c32f939fcb8c4a",
->>>>>>> feature/kart:angrybirds/composer.lock
                 "shasum": ""
             },
             "require": {
@@ -1326,11 +1220,7 @@
             "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD:composer.lock
                 "source": "https://github.com/symfony/event-dispatcher/tree/v5.4.3"
-=======
-                "source": "https://github.com/symfony/event-dispatcher/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
             },
             "funding": [
                 {
@@ -1346,37 +1236,20 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
             "time": "2022-01-02T09:53:40+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher-contracts.git",
-                "reference": "aa5422287b75594b90ee9cd807caf8f0df491385"
+                "reference": "7bc61cc2db649b4637d331240c5346dcc7708051"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/aa5422287b75594b90ee9cd807caf8f0df491385",
-                "reference": "aa5422287b75594b90ee9cd807caf8f0df491385",
-=======
-            "time": "2022-01-02T09:51:59+00:00"
-        },
-        {
-            "name": "symfony/event-dispatcher-contracts",
-            "version": "v2.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/event-dispatcher-contracts.git",
-                "reference": "66bea3b09be61613cd3b4043a65a8ec48cfa6d2a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/66bea3b09be61613cd3b4043a65a8ec48cfa6d2a",
-                "reference": "66bea3b09be61613cd3b4043a65a8ec48cfa6d2a",
->>>>>>> feature/kart:angrybirds/composer.lock
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/7bc61cc2db649b4637d331240c5346dcc7708051",
+                "reference": "7bc61cc2db649b4637d331240c5346dcc7708051",
                 "shasum": ""
             },
             "require": {
@@ -1389,11 +1262,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD:composer.lock
                     "dev-main": "3.0-dev"
-=======
-                    "dev-main": "2.5-dev"
->>>>>>> feature/kart:angrybirds/composer.lock
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -1430,11 +1299,7 @@
                 "standards"
             ],
             "support": {
-<<<<<<< HEAD:composer.lock
-                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.0.0"
-=======
-                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v2.5.0"
->>>>>>> feature/kart:angrybirds/composer.lock
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.0.1"
             },
             "funding": [
                 {
@@ -1450,37 +1315,20 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
-            "time": "2021-07-15T12:33:35+00:00"
+            "time": "2022-01-02T09:55:41+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.4.6",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "d53a45039974952af7f7ebc461ccdd4295e29440"
+                "reference": "3a4442138d80c9f7b600fb297534ac718b61d37f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/d53a45039974952af7f7ebc461ccdd4295e29440",
-                "reference": "d53a45039974952af7f7ebc461ccdd4295e29440",
-=======
-            "time": "2021-07-12T14:48:14+00:00"
-        },
-        {
-            "name": "symfony/filesystem",
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/filesystem.git",
-                "reference": "1c11c4846dff1b62c869a47d45fa5ed5e93faea2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/1c11c4846dff1b62c869a47d45fa5ed5e93faea2",
-                "reference": "1c11c4846dff1b62c869a47d45fa5ed5e93faea2",
->>>>>>> feature/kart:angrybirds/composer.lock
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/3a4442138d80c9f7b600fb297534ac718b61d37f",
+                "reference": "3a4442138d80c9f7b600fb297534ac718b61d37f",
                 "shasum": ""
             },
             "require": {
@@ -1515,11 +1363,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD:composer.lock
-                "source": "https://github.com/symfony/filesystem/tree/v5.4.6"
-=======
-                "source": "https://github.com/symfony/filesystem/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
+                "source": "https://github.com/symfony/filesystem/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -1535,8 +1379,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
-            "time": "2022-03-02T12:42:23+00:00"
+            "time": "2022-04-01T12:33:59+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1550,22 +1393,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/finder/zipball/231313534dded84c7ecaa79d14bc5da4ccb69b7d",
                 "reference": "231313534dded84c7ecaa79d14bc5da4ccb69b7d",
-=======
-            "time": "2022-01-02T09:51:59+00:00"
-        },
-        {
-            "name": "symfony/finder",
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/finder.git",
-                "reference": "5ab1855ebe36c381ccde572f110f3280f88babf5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/5ab1855ebe36c381ccde572f110f3280f88babf5",
-                "reference": "5ab1855ebe36c381ccde572f110f3280f88babf5",
->>>>>>> feature/kart:angrybirds/composer.lock
                 "shasum": ""
             },
             "require": {
@@ -1599,11 +1426,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD:composer.lock
                 "source": "https://github.com/symfony/finder/tree/v5.4.3"
-=======
-                "source": "https://github.com/symfony/finder/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
             },
             "funding": [
                 {
@@ -1619,11 +1442,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
             "time": "2022-01-26T16:34:36+00:00"
-=======
-            "time": "2022-01-02T09:51:59+00:00"
->>>>>>> feature/kart:angrybirds/composer.lock
         },
         {
             "name": "symfony/flex",
@@ -1840,7 +1659,6 @@
                 }
             ],
             "time": "2022-01-28T17:48:02+00:00"
-<<<<<<< HEAD:composer.lock
         },
         {
             "name": "symfony/http-foundation",
@@ -1854,99 +1672,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/34e89bc147633c0f9dd6caaaf56da3b806a21465",
                 "reference": "34e89bc147633c0f9dd6caaaf56da3b806a21465",
-=======
-        },
-        {
-            "name": "symfony/http-client-contracts",
-            "version": "v2.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-client-contracts.git",
-                "reference": "ec82e57b5b714dbb69300d348bd840b345e24166"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client-contracts/zipball/ec82e57b5b714dbb69300d348bd840b345e24166",
-                "reference": "ec82e57b5b714dbb69300d348bd840b345e24166",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2.5"
-            },
-            "suggest": {
-                "symfony/http-client-implementation": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "2.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Contracts\\HttpClient\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Generic abstractions related to HTTP clients",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "abstractions",
-                "contracts",
-                "decoupling",
-                "interfaces",
-                "interoperability",
-                "standards"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/http-client-contracts/tree/v2.5.0"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-11-03T09:24:47+00:00"
-        },
-        {
-            "name": "symfony/http-foundation",
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "f1ac8067e60bca740dc51160788c8e91fc9de75a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/f1ac8067e60bca740dc51160788c8e91fc9de75a",
-                "reference": "f1ac8067e60bca740dc51160788c8e91fc9de75a",
->>>>>>> feature/kart:angrybirds/composer.lock
                 "shasum": ""
             },
             "require": {
@@ -1990,11 +1715,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD:composer.lock
                 "source": "https://github.com/symfony/http-foundation/tree/v5.4.6"
-=======
-                "source": "https://github.com/symfony/http-foundation/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
             },
             "funding": [
                 {
@@ -2010,37 +1731,20 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
             "time": "2022-03-05T21:03:43+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v5.4.6",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "d41f29ae9af1b5f40c7ebcddf09082953229411d"
+                "reference": "509243b9b3656db966284c45dffce9316c1ecc5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/d41f29ae9af1b5f40c7ebcddf09082953229411d",
-                "reference": "d41f29ae9af1b5f40c7ebcddf09082953229411d",
-=======
-            "time": "2022-01-02T09:51:59+00:00"
-        },
-        {
-            "name": "symfony/http-kernel",
-            "version": "v5.3.16",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "a126e33084ed0ed2bf3251942911f26078b8c559"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/a126e33084ed0ed2bf3251942911f26078b8c559",
-                "reference": "a126e33084ed0ed2bf3251942911f26078b8c559",
->>>>>>> feature/kart:angrybirds/composer.lock
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/509243b9b3656db966284c45dffce9316c1ecc5c",
+                "reference": "509243b9b3656db966284c45dffce9316c1ecc5c",
                 "shasum": ""
             },
             "require": {
@@ -2123,10 +1827,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD:composer.lock
-                "source": "https://github.com/symfony/http-kernel/tree/v5.4.6"
-=======
-                "source": "https://github.com/symfony/http-kernel/tree/v5.3.16"
+                "source": "https://github.com/symfony/http-kernel/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -2142,7 +1843,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-01T08:28:00+00:00"
+            "time": "2022-04-02T06:04:20+00:00"
         },
         {
             "name": "symfony/mime",
@@ -2210,7 +1911,6 @@
             ],
             "support": {
                 "source": "https://github.com/symfony/mime/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
             },
             "funding": [
                 {
@@ -2226,11 +1926,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
-            "time": "2022-03-05T21:14:51+00:00"
-=======
             "time": "2022-01-02T09:51:59+00:00"
->>>>>>> feature/kart:angrybirds/composer.lock
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
@@ -2296,8 +1992,6 @@
             ],
             "support": {
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.25.0"
-<<<<<<< HEAD:composer.lock
-=======
             },
             "funding": [
                 {
@@ -2385,7 +2079,6 @@
             ],
             "support": {
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.25.0"
->>>>>>> feature/kart:angrybirds/composer.lock
             },
             "funding": [
                 {
@@ -2401,11 +2094,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
-            "time": "2021-11-23T21:10:46+00:00"
-=======
             "time": "2021-09-14T14:02:44+00:00"
->>>>>>> feature/kart:angrybirds/composer.lock
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
@@ -2817,7 +2506,6 @@
         },
         {
             "name": "symfony/routing",
-<<<<<<< HEAD:composer.lock
             "version": "v5.4.3",
             "source": {
                 "type": "git",
@@ -2828,18 +2516,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/routing/zipball/44b29c7a94e867ccde1da604792f11a469958981",
                 "reference": "44b29c7a94e867ccde1da604792f11a469958981",
-=======
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/routing.git",
-                "reference": "eddd14a04a9f34a9f5fe0b87961aca580d6dfa6c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/eddd14a04a9f34a9f5fe0b87961aca580d6dfa6c",
-                "reference": "eddd14a04a9f34a9f5fe0b87961aca580d6dfa6c",
->>>>>>> feature/kart:angrybirds/composer.lock
                 "shasum": ""
             },
             "require": {
@@ -2900,11 +2576,7 @@
                 "url"
             ],
             "support": {
-<<<<<<< HEAD:composer.lock
                 "source": "https://github.com/symfony/routing/tree/v5.4.3"
-=======
-                "source": "https://github.com/symfony/routing/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
             },
             "funding": [
                 {
@@ -2920,11 +2592,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
             "time": "2022-01-02T09:53:40+00:00"
-=======
-            "time": "2022-01-02T09:51:59+00:00"
->>>>>>> feature/kart:angrybirds/composer.lock
         },
         {
             "name": "symfony/runtime",
@@ -3005,22 +2673,22 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc"
+                "reference": "24d9dc654b83e91aa59f9d167b131bc3b5bea24c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc",
-                "reference": "1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/24d9dc654b83e91aa59f9d167b131bc3b5bea24c",
+                "reference": "24d9dc654b83e91aa59f9d167b131bc3b5bea24c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
                 "psr/container": "^1.1",
-                "symfony/deprecation-contracts": "^2.1"
+                "symfony/deprecation-contracts": "^2.1|^3"
             },
             "conflict": {
                 "ext-psr": "<1.1|>=2"
@@ -3068,7 +2736,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v2.5.0"
+                "source": "https://github.com/symfony/service-contracts/tree/v2.5.1"
             },
             "funding": [
                 {
@@ -3084,11 +2752,10 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-04T16:48:04+00:00"
+            "time": "2022-03-13T20:07:29+00:00"
         },
         {
             "name": "symfony/string",
-<<<<<<< HEAD:composer.lock
             "version": "v5.4.3",
             "source": {
                 "type": "git",
@@ -3099,18 +2766,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/string/zipball/92043b7d8383e48104e411bc9434b260dbeb5a10",
                 "reference": "92043b7d8383e48104e411bc9434b260dbeb5a10",
-=======
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/string.git",
-                "reference": "006fadf2d23b7b1a0ec5f3a0a5a80e1da2819c94"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/006fadf2d23b7b1a0ec5f3a0a5a80e1da2819c94",
-                "reference": "006fadf2d23b7b1a0ec5f3a0a5a80e1da2819c94",
->>>>>>> feature/kart:angrybirds/composer.lock
                 "shasum": ""
             },
             "require": {
@@ -3167,11 +2822,7 @@
                 "utf8"
             ],
             "support": {
-<<<<<<< HEAD:composer.lock
                 "source": "https://github.com/symfony/string/tree/v5.4.3"
-=======
-                "source": "https://github.com/symfony/string/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
             },
             "funding": [
                 {
@@ -3187,24 +2838,20 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
             "time": "2022-01-02T09:53:40+00:00"
-=======
-            "time": "2022-01-05T13:47:22+00:00"
->>>>>>> feature/kart:angrybirds/composer.lock
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
-                "reference": "d28150f0f44ce854e942b671fc2620a98aae1b1e"
+                "reference": "1211df0afa701e45a04253110e959d4af4ef0f07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/d28150f0f44ce854e942b671fc2620a98aae1b1e",
-                "reference": "d28150f0f44ce854e942b671fc2620a98aae1b1e",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/1211df0afa701e45a04253110e959d4af4ef0f07",
+                "reference": "1211df0afa701e45a04253110e959d4af4ef0f07",
                 "shasum": ""
             },
             "require": {
@@ -3253,7 +2900,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/translation-contracts/tree/v2.5.0"
+                "source": "https://github.com/symfony/translation-contracts/tree/v2.5.1"
             },
             "funding": [
                 {
@@ -3269,33 +2916,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-17T14:20:01+00:00"
+            "time": "2022-01-02T09:53:40+00:00"
         },
         {
             "name": "symfony/twig-bridge",
-<<<<<<< HEAD:composer.lock
-            "version": "v5.4.5",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/twig-bridge.git",
-                "reference": "648c8694a9470ae4aaf64cbce1b640f5941fd7c9"
+                "reference": "b43e9bdb57a39ffffb4c44a7ef0a47d338e9f1da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/twig-bridge/zipball/648c8694a9470ae4aaf64cbce1b640f5941fd7c9",
-                "reference": "648c8694a9470ae4aaf64cbce1b640f5941fd7c9",
-=======
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/twig-bridge.git",
-                "reference": "5830022728b73b3a28877b3e2c03332a28294fe7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/twig-bridge/zipball/5830022728b73b3a28877b3e2c03332a28294fe7",
-                "reference": "5830022728b73b3a28877b3e2c03332a28294fe7",
->>>>>>> feature/kart:angrybirds/composer.lock
+                "url": "https://api.github.com/repos/symfony/twig-bridge/zipball/b43e9bdb57a39ffffb4c44a7ef0a47d338e9f1da",
+                "reference": "b43e9bdb57a39ffffb4c44a7ef0a47d338e9f1da",
                 "shasum": ""
             },
             "require": {
@@ -3387,11 +3021,7 @@
             "description": "Provides integration for Twig with various Symfony components",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD:composer.lock
-                "source": "https://github.com/symfony/twig-bridge/tree/v5.4.5"
-=======
-                "source": "https://github.com/symfony/twig-bridge/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
+                "source": "https://github.com/symfony/twig-bridge/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -3407,11 +3037,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
-            "time": "2022-02-09T08:59:58+00:00"
-=======
-            "time": "2022-01-02T09:51:59+00:00"
->>>>>>> feature/kart:angrybirds/composer.lock
+            "time": "2022-04-01T06:09:41+00:00"
         },
         {
             "name": "symfony/twig-bundle",
@@ -3503,7 +3129,6 @@
         },
         {
             "name": "symfony/var-dumper",
-<<<<<<< HEAD:composer.lock
             "version": "v5.4.6",
             "source": {
                 "type": "git",
@@ -3514,18 +3139,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/294e9da6e2e0dd404e983daa5aa74253d92c05d0",
                 "reference": "294e9da6e2e0dd404e983daa5aa74253d92c05d0",
-=======
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "daf799d0fbad76a40f2d4691d732641793103700"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/daf799d0fbad76a40f2d4691d732641793103700",
-                "reference": "daf799d0fbad76a40f2d4691d732641793103700",
->>>>>>> feature/kart:angrybirds/composer.lock
                 "shasum": ""
             },
             "require": {
@@ -3585,11 +3198,7 @@
                 "dump"
             ],
             "support": {
-<<<<<<< HEAD:composer.lock
                 "source": "https://github.com/symfony/var-dumper/tree/v5.4.6"
-=======
-                "source": "https://github.com/symfony/var-dumper/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
             },
             "funding": [
                 {
@@ -3605,37 +3214,20 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
             "time": "2022-03-02T12:42:23+00:00"
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v6.0.6",
+            "version": "v6.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "130229a482abf17635a685590958894dfb4b4360"
+                "reference": "5f1fddb1b3a8394dbfb234044e3ad620a26e1735"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/130229a482abf17635a685590958894dfb4b4360",
-                "reference": "130229a482abf17635a685590958894dfb4b4360",
-=======
-            "time": "2022-01-17T16:28:15+00:00"
-        },
-        {
-            "name": "symfony/var-exporter",
-            "version": "v5.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "1ca85c38c0c70201c599264923b86e588ddf8878"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/1ca85c38c0c70201c599264923b86e588ddf8878",
-                "reference": "1ca85c38c0c70201c599264923b86e588ddf8878",
->>>>>>> feature/kart:angrybirds/composer.lock
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/5f1fddb1b3a8394dbfb234044e3ad620a26e1735",
+                "reference": "5f1fddb1b3a8394dbfb234044e3ad620a26e1735",
                 "shasum": ""
             },
             "require": {
@@ -3678,11 +3270,7 @@
                 "serialize"
             ],
             "support": {
-<<<<<<< HEAD:composer.lock
-                "source": "https://github.com/symfony/var-exporter/tree/v6.0.6"
-=======
-                "source": "https://github.com/symfony/var-exporter/tree/v5.3.14"
->>>>>>> feature/kart:angrybirds/composer.lock
+                "source": "https://github.com/symfony/var-exporter/tree/v6.0.7"
             },
             "funding": [
                 {
@@ -3698,11 +3286,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD:composer.lock
-            "time": "2022-03-02T12:58:14+00:00"
-=======
-            "time": "2022-01-02T09:51:59+00:00"
->>>>>>> feature/kart:angrybirds/composer.lock
+            "time": "2022-03-31T17:18:25+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -3860,16 +3444,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.3.8",
+            "version": "v3.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "972d8604a92b7054828b539f2febb0211dd5945c"
+                "reference": "8442df056c51b706793adf80a9fd363406dd3674"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/972d8604a92b7054828b539f2febb0211dd5945c",
-                "reference": "972d8604a92b7054828b539f2febb0211dd5945c",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/8442df056c51b706793adf80a9fd363406dd3674",
+                "reference": "8442df056c51b706793adf80a9fd363406dd3674",
                 "shasum": ""
             },
             "require": {
@@ -3920,7 +3504,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.3.8"
+                "source": "https://github.com/twigphp/Twig/tree/v3.3.10"
             },
             "funding": [
                 {
@@ -3932,7 +3516,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-04T06:59:48+00:00"
+            "time": "2022-04-06T06:47:41+00:00"
         }
     ],
     "packages-dev": [
