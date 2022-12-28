@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A Field Guide to Angry Birds</title>
+        {% block stylesheets %}
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.6.0/dist/lumen/bootstrap.min.css">
+            <!-- Custom CSS -->
+            <link rel="stylesheet" href="/css/site.css">
+        {% endblock %}
+    </head>
+    <body>       
+		{# navbar #}
+		{% include '/partials/_nav.html.twig' %}
+
+		{# messages flash #}
+		{# {% include '/partials/_flash.html.twig' %} #}
+
+		{% block body %}{% endblock %}
+
+		{% block javascripts %}
+			<!-- Bootstrap JS -->
+			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+		{% endblock %}
+	</body>
+</html>
