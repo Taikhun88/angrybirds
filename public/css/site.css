@@ -37,7 +37,14 @@ body {
 
 .bird-detail .bird-card__image {
     border: 1px solid gray;
+    min-width: 120px;
     width: 100%;
+}
+
+/* long text hidden to be auto scrolled */
+.overflow-content {
+    max-height: 250px;
+    overflow: auto;
 }
 
 .odd {
