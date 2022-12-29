@@ -10,14 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class HomeController extends AbstractController
 {
-  /**
-   * Displays the homepage with list of all birds
-   * This methods displays the route thanks to annotations.yaml and uses injection of Route above
-   * 
-   * @Route("/", name="home")
-   * 
-   * return Response
-   */
+  #[Route('/', name: 'home')]
   public function home(SessionInterface $session): Response
   {
     //dd('Hello World!');
