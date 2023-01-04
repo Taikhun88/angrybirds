@@ -3,13 +3,14 @@ html {
 }
 
 body {
-    background-color: #60412f;
-    background-image: url('images/maria-mustonen-2movie-2016-theme.jpg');
-    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.website-body-img {
+    background-image: url('./images/maria-mustonen-2movie-2016-theme.jpg');
     background-size: cover;
-    background-position: right bottom;
-    /* fixed-top */
-    margin-top: 90px;
 }
 
 .navbar-brand-logo {
@@ -21,24 +22,40 @@ body {
     height: 50px;
 }
 
-.home-header, .bird-detail {
+.home-header {
     background-color: rgb(250 250 250 / 0.5);
-    padding: 2rem 2rem;
+    margin-top: 75px;
+    width: 100%;
+}
+
+.box-description-bird {
+    margin-top: 95px;
+}
+
+.bird-show-card {
+    background-color: rgba(255, 255, 255, 0.45);
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .bird-card {
     background-color: rgb(255 255 255 / 0.5);
-    padding: 1em;
+    width: 230px;
+    height: 235px;
 }
 
 .bird-card__title {
     text-align: center;
 }
 
-.bird-detail .bird-card__image {
-    border: 1px solid gray;
+.bird-card__image {
     min-width: 120px;
-    width: 100%;
+    max-width: 130px;
+    width: 45%;
+}
+
+div.flex-row > div > img.bird-card__image {
+    border: 1px solid rgba(128, 128, 128, 0.5);
 }
 
 /* long text hidden to be auto scrolled */

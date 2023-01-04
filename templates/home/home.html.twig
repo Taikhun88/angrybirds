@@ -1,45 +1,43 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-	<header class="container">
-		<div class="jumbotron mt-3 home-header">
-			<h1 class="display-4">A Field Guide to Angry Birds</h1>
-			<p class="lead">Games that lodge in the brain often have comical stars !</p>
-			<p>You have previously showed interest with this bird :
-				{{ lastBirdVisited }}</p>
-			<hr class="my-4">
-			<p>To celebrate the new year and have the birds with you all day long, here's a gift !</p>
-			<p class="lead">
-				<a class="btn btn-primary btn-md" href="{{ path('download') }}" role="button">Download PDF Calendar</a>
-			</p>
-		</div>
-	</header>
-
-	<main class="container d-flex flex-row">
-		<div class="row justify-content-center">
+	<main class="d-flex flex-column">
+		<header class="container home-header">
+			<div class="mt-3 p-3">
+				<h1 class="display-4">A Field Guide to Angry Birds</h1>
+				<p class="lead">Games that lodge in the brain often have comical stars !</p>
+				<p>You have previously showed interest with this bird :
+					{{ lastBirdVisited }}</p>
+				<hr class="my-4">
+				<p>To celebrate the new year and have the birds with you all day long, here's a gift !</p>
+				<p class="lead">
+					<a class="btn btn-primary btn-md" href="{{ path('download') }}" role="button">Download PDF Calendar</a>
+				</p>
+			</div>
+		</header>
+		<div class="row justify-content-center ">
 			<!-- Bird Card -->
 			{% set colorsOddEven = ['odd', 'even'] %}
 			{# The twig cycle methods works with its key, value defined within a set. Set is an array of values #}
 			{% for i in 0..0 %}
 				{# We can use multiple for loop to use differents key or values. But one would also have been enough here. This one is for the cycle #}
 				{% for key, bird in birds %}
-				{# Loop the values in array birds of home method #}
-					<div class="m-3 col-6 col-sm-6 col-md-4 col-lg-3 {{ cycle(['odd','even'], key )}}">
-
-						<div
-							class="card mb-3 bird-card">
-							{# The method path indicates the methods we use to display the data. The methods has a name which is 1st parameter of PATH, then comes 2sn parameter which is the ID. As ID is mandatory in this bird_show method #}
-							<a href="{{ path('bird_show', {id:key}) }}">
+					{# Loop the values in array birds of home method #}
+					<a href="{{ path('bird_show', {id:key}) }}">
+						<div class="m-5 bird-card {{ cycle(['odd','even'], key )}}">
+							<div
+								class="card bird-card">
+								{# The method path indicates the methods we use to display the data. The methods has a name which is 1st parameter of PATH, then comes 2sn parameter which is the ID. As ID is mandatory in this bird_show method #}
 								<h3 class="card-header bird-card__title">
 									{{ bird.name }}
 								</h3>
-								<img
-								class="bird-card__image" src="{{ asset('/css/images/' ~ bird.image) }}" width="100%">
-							{# {{ dump(bird.image) }} #}
-							</a>
+								<div class="d-flex justify-content-center">
+									<img class="bird-card__image" src="{{ asset('/css/images/' ~ bird.image) }}">
 
+								</div>
+							</div>
 						</div>
-					</div>
+					</a>
 				{% endfor  %}
 			{% endfor %}
 		</div>
